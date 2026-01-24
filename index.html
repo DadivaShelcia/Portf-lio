@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dádiva Jorge | Designer & Desenvolvedora Front-end</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <nav class="nav-container">
+                <a href="#" class="logo">Dádiva<span>Jorge</span></a>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Transformo ideias em <span>interfaces digitais</span> funcionais</h1>
+                    <p>Web Designer & Desenvolvedora Front-end com superpoderes em HTML, CSS e JavaScript. Crio soluções que unem design intuitivo e código limpo para experiências digitais memoráveis.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn">Ver Projetos</a>
+                        <a href="#contact" class="btn btn-secondary">Entre em Contato</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        
+                        <img src="images/foto.jpeg" alt="Dádiva Jorge">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre Mim</h2>
+                <p class="section-subtitle">Conheça minha jornada e minha paixão por unir design e desenvolvimento</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Designer & Desenvolvedora Front-end</h3>
+                    <p>Sou uma profissional apaixonada pela criação digital que encontrou no ponto de encontro entre Design e Desenvolvimento o seu lugar ideal. Acredito que uma interface só é verdadeiramente boa quando é bonita, intuitiva e bem construída.</p>
+                    <p>Minha jornada começou na programação, onde aprendi a lógica por trás das aplicações. Isso me deu uma visão única: crio designs pensando na implementação, o que torna o processo mais eficiente e o resultado mais fiel à proposta.</p>
+                    <p>Atualmente, além de atuar profissionalmente, estou expandindo meus conhecimentos em Engenharia Informática na UPRA, sempre buscando entender como a usabilidade e a experiência do usuário impactam o sucesso de um produto digital.</p>
+                    
+                    <div class="about-info">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Localização</h4>
+                                <p>Luanda, Angola</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Formação</h4>
+                                <p>UPRA & Instituto Pukunina</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Email</h4>
+                                <p>dadivabandeshelcia@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Telefone</h4>
+                                <p>+244 942 613 017</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="about-image-container">
+                        <!-- Imagem sobre você ou seu trabalho -->
+                        <img src="images/foto2.jpeg" alt="Trabalhando em design e desenvolvimento">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Meus Projetos</h2>
+                <p class="section-subtitle">Alguns dos projetos onde apliquei minhas habilidades em design e desenvolvimento</p>
+            </div>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="development">Desenvolvimento</button>
+                <button class="filter-btn" data-filter="ui-ux">UI/UX</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Projeto 1 -->
+                <div class="project-card" data-category="development web">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Sistema de Marcação de Consultas">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">HTML/CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">PHP</span>
+                            <span class="project-tag">MySQL</span>
+                        </div>
+                        <h3>Sistema de Marcação de Consultas Médicas</h3>
+                        <p>Plataforma web completa para agendamento de consultas médicas online. Desenvolvida com foco na usabilidade para pacientes e eficiência na gestão para clínicas.</p>
+                        <a href="#" class="project-link">Ver Detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Projeto 2 -->
+                <div class="project-card" data-category="ui-ux web">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Website de Previsão do Tempo">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">UI/UX Design</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">API</span>
+                            <span class="project-tag">Responsivo</span>
+                        </div>
+                        <h3>Previsão do Tempo com Dicas Personalizadas</h3>
+                        <p>Website inovador que oferece previsões meteorológicas com recomendações personalizadas baseadas no perfil do usuário (tipo de pele, idade, atividades planejadas).</p>
+                        <a href="#" class="project-link">Ver Detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Projeto 3 -->
+                <div class="project-card" data-category="web development">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1153&q=80" alt="Website para Clínica">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Web Design</span>
+                            <span class="project-tag">HTML/CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Bootstrap</span>
+                        </div>
+                        <h3>Website Institucional para Clínica</h3>
+                        <p>Site desenvolvido para aumentar a visibilidade de uma clínica médica, com design profissional, informações claras e chamadas para ação eficientes.</p>
+                        <a href="#" class="project-link">Ver Detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Minhas Habilidades</h2>
+                <p class="section-subtitle">Conjunto de competências técnicas e interpessoais que aplico em meus projetos</p>
+            </div>
+            
+            <div class="skills-container">
+                <!-- Habilidades de Design -->
+                <div class="skills-category">
+                    <h3><i class="fas fa-palette"></i> Design & UX</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">UI Design</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Design Responsivo</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Prototipagem</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Wireframing</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Habilidades de Desenvolvimento -->
+                <div class="skills-category">
+                    <h3><i class="fas fa-code"></i> Desenvolvimento</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">HTML5</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">CSS3</span>
+                            <span class="skill-percentage">92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Bootstrap</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Habilidades Interpessoais -->
+                <div class="skills-category">
+                    <h3><i class="fas fa-users"></i> Competências Pessoais</h3>
+                    <div class="soft-skills">
+                        <div class="soft-skill">Resolução de Problemas</div>
+                        <div class="soft-skill">Aprendizado Contínuo</div>
+                        <div class="soft-skill">Adaptabilidade</div>
+                        <div class="soft-skill">Criatividade e Inovação</div>
+                        <div class="soft-skill">Trabalho em Equipe</div>
+                        <div class="soft-skill">Comunicação</div>
+                        <div class="soft-skill">Gestão de Tempo</div>
+                        <div class="soft-skill">Atenção aos Detalhes</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Entre em Contato</h2>
+                <p class="section-subtitle">Tem um projeto em mente ou quer discutir oportunidades? Vamos conversar!</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Vamos Trabalhar Juntos?</h3>
+                    <p>Estou sempre aberta a discutir novas oportunidades, projetos desafiadores ou trocar ideias sobre tecnologia e design. Entre em contato e vamos criar algo incrível!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localização</h4>
+                                <p>Benfica, Luanda - Angola</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>dadivabandeshelcia@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>+244 942 613 017</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/dadiva_bande" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/DadivaShelcia" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://instagram.com/dadiva_shelcia" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/+244942613017?text=Olá!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar." target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm" onsubmit="enviarEmail(event)">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <a href="#" class="footer-logo">Dádiva<span>Jorge</span></a>
+            
+            <div class="footer-links">
+                <a href="#home">Início</a>
+                <a href="#about">Sobre</a>
+                <a href="#projects">Projetos</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#contact">Contato</a>
+            </div>
+            
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</body>
+</html>
